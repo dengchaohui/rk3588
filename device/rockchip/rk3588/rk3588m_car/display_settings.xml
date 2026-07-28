@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<display-settings>
+<config identifier="0" />
+<display
+  name="local:1"
+  shouldShowSystemDecors="true"
+  shouldShowIme="true"
+  forcedDensity="240"	/> 
+<display
+   name="local:2"
+   shouldShowSystemDecors="true"
+   shouldShowIme="true"
+   forcedDensity="240"   />
+<display
+   name="local:3"
+   shouldShowSystemDecors="true"
+   shouldShowIme="true"
+   forcedDensity="240"   />
+<display
+   name="local:241"
+   shouldShowSystemDecors="true"
+   shouldShowIme="true"
+   forcedDensity="240"   />
+<display
+   name="local:243"
+   shouldShowSystemDecors="true"
+   shouldShowIme="true"
+   forcedDensity="240"   />
+</display-settings>

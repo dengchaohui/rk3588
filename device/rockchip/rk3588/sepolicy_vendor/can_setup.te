@@ -1,0 +1,9 @@
+type can_setup, domain;
+type can_setup_exec, exec_type, vendor_file_type, file_type;
+type can_setup_cnf, file_type;
+init_daemon_domain(can_setup)
+
+#allow can_setup can_setup-cnf:file read;
+#allow can_setup rootfs:lnk_file getattr;
+#allow can_setup kernel:system syslog_read;
+#allow can_setup can_setup-cnf:file { getattr open };

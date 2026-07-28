@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<bool name="def_lockscreen_disabled">true</bool>
+<integer name="def_user_rotation">0</integer>
+</resources>
+

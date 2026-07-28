@@ -1,0 +1,8 @@
+<ports>
+	<port display="0" input="himax-2-0048/input0" />  #DSI0 720P
+	<port display="1" input="ili210x-5-0041/input0" /> #EDP0 1080P
+	<port display="2" input="himax-6-0048/input0" /> #DSI1 720P
+	<port display="3" input="himax-4-0048/input0" /> #DP0 720P
+	<port display="241" input="ili210x-7-0041/input0" /> #EDP1 1080P
+	<port display="243" input="himax-8-0048/input0" /> #DP1 720P
+</ports>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/sample_main_layout">
+
+    <!--
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/Theme.MyApplication.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/linearlay_1"
+        android:layout_width="960px"
+        android:layout_height="540px"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"></LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlay_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight ="1"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_front"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+
+            android:text="front" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="back" />
+
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="left" />
+
+        <!--
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="match_parent"
+                        android:contentDescription="rockchip"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo03" />
+        -->
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="right" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlay_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight ="1"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_lr"
+            android:layout_width="0dp"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:text="LR" />
+
+        <Button
+            android:id="@+id/button_top"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="TOP" />
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="0dp"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:text="SETTING" />
+    </LinearLayout>
+</RelativeLayout>

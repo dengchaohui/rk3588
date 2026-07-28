@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/adj1"
+        android:orderInCategory="100"
+        android:title="平移调整" />
+    <item
+        android:id="@+id/adj2"
+        android:orderInCategory="101"
+        android:title="旋转调整" />
+    <item
+        android:id="@+id/adj3"
+        android:orderInCategory="102"
+        android:title="顶视图调整" />
+    <item
+        android:id="@+id/adj4"
+        android:orderInCategory="103"
+        android:title="车模比例调整" />
+    <item
+        android:id="@+id/adj5"
+        android:orderInCategory="104"
+        android:title="退出调整" />
+</menu>

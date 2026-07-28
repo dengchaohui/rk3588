@@ -1,0 +1,1 @@
+copy \\10.10.10.58\ydb\camera360\out\target\product\rk3568_r\obj\SHARED_LIBRARIES\camera360_intermediates\camera360.so .\app\src\main\jniLibs\arm64-v8a\libcamera360.so

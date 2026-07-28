@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rk_avm_algo>
+	<camera>
+		<camera_number>4</camera_number>
+		<car_model>/data/AppData_rk/Content/models/ferrari.dae</car_model>
+		<calib_result>/data/AppData_rk/output</calib_result>
+		<file_content>/data/AppData_rk/Content</file_content>
+		<camera1>
+			<dev_id>0</dev_id>
+		</camera1>
+		<camera2>
+			<dev_id>1</dev_id>
+		</camera2>
+		<camera3>
+			<dev_id>2</dev_id>		
+		</camera3>
+		<camera4>
+			<dev_id>3</dev_id>
+		</camera4>
+	</camera>
+</rk_avm_algo>

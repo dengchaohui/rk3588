@@ -1,0 +1,2 @@
+export PATH=../prebuilts/clang/host/linux-x86/clang-r416183b/bin:$PATH alias msk='make CROSS_COMPILE =aarch64-linux-gnu- LLVM=1 LLVM_IAS=1'
+make CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 LLVM_IAS=1 ARCH=arm64 rockchip_defconfig pcie_wifi.config android-11.config && make CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 LLVM_IAS=1 ARCH=arm64 rockchip_defconfig pcie_wifi.config android-11.config BOOT_IMG=../rockdev/Image-topeet_rk3588/boot.img topeet-rk3588-v10.img -j16

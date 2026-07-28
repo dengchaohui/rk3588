@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+config RTL8723DU
+	tristate "Realtek 8723U USB WiFi"
+	help
+	  Help message of RTL8723DU

@@ -1,0 +1,5 @@
+service ril-daemon /vendor/bin/hw/rild -l /vendor/lib64/hw/libreferece-ril.so
+    class main
+    user radio
+    group radio cache inet misc audio sdcard_rw log
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW

@@ -1,2 +1,7 @@
-*
-!kernel-5.10/
+out/
+prebuilts/
+.repo/
+*.o
+*.ko
+*.img
+*.zip

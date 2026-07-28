@@ -19,6 +19,6 @@
 #define __VERSION_H__
 
 #define HWJPEG_VERSION_INFO     ""
-#define HWJPEG_BUILD_INFO       "built-tia 2026-01-04 15:26:30"
+#define HWJPEG_BUILD_INFO       "built-den 2026-07-28 17:51:18"
 
 #endif  // __VERSION_H__
